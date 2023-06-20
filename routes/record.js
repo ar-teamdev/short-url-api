@@ -4,6 +4,6 @@ var recordController = require('../controllers/record');
 
 router.post('/', recordController.createRecord); 
 
-// router.get('/', recordController.getAllPackage); 
+router.get('/', recordController.getAllRecord); 
 
 module.exports = router;
