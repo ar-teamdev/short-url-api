@@ -4,7 +4,7 @@
         "exec_mode": "fork",
         "instances": 1,
         "script": "./bin/www",
-        "name": "cookiego-api",
+        "name": "short-url-api",
         "interpreter": "node",
         "watch": [
           "middlewares",

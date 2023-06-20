@@ -1,4 +1,4 @@
-FROM node:12.18.3-alpine
+FROM node:14.5.0-alpine
 ENV TZ=Asia/Bangkok
 
 RUN apk --no-cache add g++ gcc libgcc libstdc++ linux-headers make python
